@@ -80,7 +80,19 @@
 
 9. Feu un programa (amb el llenguatge de programació que vulgueu) que, donat un número qualsevol, imprimeixi la seva taula de multiplicar.
 
-    (Escriu la resposta al darrere del full)
+    import java.util.Scanner;
+   class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int contador = 0;
+    int numero = sc.nextInt();
+    
+    do{
+     System.out.println(numero*contador);
+      contador++;
+    }while(contador <=10);
+  }
+}
 
 10. Quin és el resultat d'executar el següent programa?
 
